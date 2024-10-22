@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blackjack Chatbot</h1>
+    
+    <div id="game-area">
+        <div id="dealer-hand">
+            <h2>Dealer's Hand</h2>
+            <p id="dealer-cards"></p>
+            <p id="dealer-value"></p>
+        </div>
+        <div id="player-hand">
+            <h2>Your Hand</h2>
+            <p id="player-cards"></p>
+            <p id="player-value"></p>
+        </div>
+    </div>
+
+    <div id="controls">
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+        <button id="restart">Restart</button>
+    </div>
+
+    <div id="game-status">
+        <p id="status"></p>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/openai@latest"></script>
+</body>
+</html>
